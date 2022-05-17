@@ -101,7 +101,7 @@ int main() {
         }
 
         // output
-        std::cout << postCodeAddress;
+        std::cout << "\n" << postCodeAddress;
     } catch (std::invalid_argument) {
         std::cout << "\nInvalid Input" << std::endl;
     }
